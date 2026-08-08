@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <P>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="40" maxlength="30" >
+        </P>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </p>
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="digite seu telefone">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url">
+        </p>
+        <p>
+            <label for="nota">Nota:</label>
+            <input type="number" name="nota" id="nota" min="0" max="10" step="1">
+        </p>
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="10" step="1">
+        </p>
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" min="2026-08-07" max="2026-09-10">
+        </p>
+        <p>
+            <label for="mes">Mes:</label>
+            <input type="month" name="mes" id="mes">
+        </p>
+        <p>
+            <label for="semana">Semana:</label>
+            <input type="week" name="semana" id="semana">
+        </p>
+        <p>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora" min="00:00" max="23:59">
+        </p>
+        <p>
+            <label for="data_hora">Data e Hora:</label>
+            <input type="datetime-local" name="data_hora" id="data_hora">
+        </p>
+        <p>
+            <label for="hidden">Hidden:</label>
+            <input type="hidden" name="hidden" id="hidden">
+        </p>
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+        <p>
+            <label for="arquivo">Arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo">
+        </p>
+         <p>
+            <input type="submit" value="Enviar dados">
+            <button type="button" onclick="mensagem();">Executar função</button>
+            <input type="reset" value="limpa campos">
+        </p>
+    
+    </form>
+    <script>
+        function mensagem(){
+            alert("Boa noite");
+        }
+    </script>
+
+</body>
+</html>
