@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Titulo da pagina</h1>
+    <p>Um texto empolgante</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produtos</th>
+                <th>Preço</th>
+                <th>Quantia_Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Pao</td>
+                <td>R$ 3,99</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Acucar</td>
+                <td>R$ 5,99</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Fim da Lista</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="C:\Users\CJ3037819\Documents\Web01\Ex2Aula9.html">
+        <p>Ir para pagina 2</p>
+    </a>
+</body>
+</html>
